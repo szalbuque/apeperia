@@ -1,0 +1,9 @@
+em (efemeral): unidade de medida relativa ao font-size da tag mãe
+rem (root efemeral): relativa à tag <html>
+---------------
+SVG - tipos de imagens
+- png: pouco compacto, mantém qualidade, arquivo grande
+- jpg: mais compacto, menor qualidade, não tem transparência, tamanho menor do arquivo
+- gif: tamanho varia com o tempo da animação e com a qualidade
+- svg: criado por instruções de computador, formado por cálculos, independente do tamanho da tela e não muda, é mais leve, não distorce com o zoom, com fotos a qualidade não é tão boa, mais indicado para ilustrações simples, logos etc.
+ 
