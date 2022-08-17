@@ -13,8 +13,27 @@
     --planos-cartao-start: #56CCF2;
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
+    --montserrat: 'Montserrat',sans-serif;
 }
 
 body {
     font-family: 'Open Sans', sans-serif
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* display: block -> Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width*/
+/*Se você definir box-sizing: border-box;em um elemento, o preenchimento e a borda serão incluídos na largura e na altura:*/
+.botao {
+    text-align: center;
+    display:block;
+    width: 100%;
+    max-width: 375px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
 }
